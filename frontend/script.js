@@ -41,7 +41,7 @@ clearBtn.addEventListener("click", () => {
   audioPlayer.pause();
   audioPlayer.currentTime = 0;
 
-  audioChunks = []; // Clear audio buffer
+  audioChunks = []; 
   transcriptionText.textContent = "";
   echoStatus.textContent = 'Try saying: "Suggest music to listen"';
   setSpeakerState("idle");
@@ -162,7 +162,7 @@ async function startRecordingAuto() {
   }
 }
 
-// Fixed mic button handler
+
 speakerIcon.addEventListener("click", () => {
   if (isRecording) {
     if (mediaRecorder && mediaRecorder.state !== "inactive") {
@@ -181,3 +181,4 @@ speakerIcon.addEventListener("click", () => {
 
   startRecordingAuto();
 });
+
