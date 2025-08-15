@@ -12,18 +12,25 @@ It’s designed for an **auto-loop conversation** where the bot and the user can
 
 ## 📂 Project Structure
 ```plaintext
-.
-├── app.py
-├── frontend/
+project_root/
+├── app.py               
+├── config.py            
+├── services/ 
+│   ├── stt_service.py   
+│   ├── tts_service.py   
+│   └── llm_service.py   
+├── utils/               
+│   └── fallback.py
+├── frontend/            
 │   ├── index.html
 │   ├── script.js
 │   ├── styles.css
 │   ├── speaker.png
 │   └── fallback.mp3
-├── uploads/              # Uploaded audio files
-├── generated_audio/      # TTS output audio files
-├── .env
-└── README.md
+├── uploads/             # Uploaded audio
+├── generated_audio/     # Generated audio output
+└── .env                
+
 ```
 
 ---
