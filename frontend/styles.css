@@ -74,7 +74,7 @@ body {
   white-space: pre-line;
 }
 
-/* Mic/Speaker Button */
+
 .mic-button {
   width: 90px;
   height: 90px;
@@ -92,7 +92,7 @@ body {
   transform: scale(1.1);
 }
 
-/* Speaker Icon */
+
 .speaker-img {
   width: 70px;
   height: 70px;
@@ -100,12 +100,11 @@ body {
   box-shadow: 0 0 20px rgba(157, 255, 0, 0.5);
 }
 
-/* Bot speaking glow */
+
 .speaking-bot .speaker-img {
   animation: pulseBot 1.2s infinite;
 }
 
-/* User speaking glow */
 .speaking-user .speaker-img {
   animation: pulseUser 1.2s infinite;
 }
@@ -121,3 +120,4 @@ body {
   50% { box-shadow: 0 0 40px rgba(255,193,7,1); }
   100% { box-shadow: 0 0 15px rgba(255,193,7,0.8); }
 }
+
