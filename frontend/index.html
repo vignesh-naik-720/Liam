@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Echo Bot V2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <header class="app-header">
+      <div class="status-dot"></div>
+      <span class="status-text">Echo Bot V2 • Online</span>
+    </header>
+
+    <main>
+      <!-- Lottie Animation -->
+      <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js" type="module"></script>
+      <dotlottie-wc 
+        src="https://lottie.host/0386533b-3e45-465e-b55f-a38935c57a3d/bOI6gNVECe.lottie" 
+        style="width: 300px; height: 300px" 
+        speed="1" autoplay loop>
+      </dotlottie-wc>
+
+      <!-- Prompt & Reply Boxes -->
+      <div class="prompt-box">
+        <p id="echoStatus">Tap the mic to start</p>
+      </div>
+
+      <div class="reply-box">
+        <p id="transcriptionText"></p>
+      </div>
+
+      <!-- Speaker Button -->
+      <div id="speakerIcon" class="mic-button idle">
+        <img src="speaker.png" alt="Speaker" class="speaker-img">
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
