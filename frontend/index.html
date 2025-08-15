@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Echo Bot V2</title>
+  <title>Liam: AI Voice Agent</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -14,7 +14,6 @@
     </header>
 
     <main>
-      <!-- Lottie Animation -->
       <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js" type="module"></script>
       <dotlottie-wc 
         src="https://lottie.host/0386533b-3e45-465e-b55f-a38935c57a3d/bOI6gNVECe.lottie" 
@@ -22,7 +21,7 @@
         speed="1" autoplay loop>
       </dotlottie-wc>
 
-      <!-- Prompt & Reply Boxes -->
+     
       <div class="prompt-box">
         <p id="echoStatus" style="color: gray; font-style: italic;">
           Try saying: "Suggest music to listen"
@@ -33,12 +32,12 @@
         <p id="transcriptionText"></p>
       </div>
 
-      <!-- Speaker Button -->
+
       <div id="speakerIcon" class="mic-button idle">
         <img src="speaker.png" alt="Speaker" class="speaker-img">
       </div>
 
-      <!-- Clear/Cancel Button -->
+
       <div style="margin-top: 10px; text-align: center;">
         <button id="clearBtn">
           Clear / Cancel
@@ -50,3 +49,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
