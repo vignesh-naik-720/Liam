@@ -83,12 +83,14 @@ flowchart LR
 
 🚀 Getting Started
 1️⃣ Clone the repository
+```
 git clone https://github.com/vignesh-naik-720/Liam
 cd Liam
-
+```
 2️⃣ Install dependencies
+```
 pip install -r requirements.txt
-
+```
 
 requirements.txt should include:
 
